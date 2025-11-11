@@ -1,7 +1,5 @@
 # CSS Grid és Alapvető Stílusok Jegyzet
 
-Ez egy rövid összefoglaló a CSS Grid és alapvető CSS tulajdonságokról, amit az órán vettünk.
-
 ---
 
 ## Konténer méretezés
@@ -75,5 +73,3 @@ display: block;        /* Elem blokk szintű, az egész sort kitölti */
 ```
 
 ---
-
-Ez a jegyzet segít gyorsan áttekinteni a **CSS Grid**, a **reszponzív design**, és néhány alapvető CSS tulajdonság működését.
