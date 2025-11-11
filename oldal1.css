@@ -1,0 +1,59 @@
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+nav li:hover {
+    background-color: #1d1b1b;
+}
+
+nav li:hover a {
+    color: rgb(252, 144, 4);
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+
+    gap: 20px;
+    justify-content: center;
+
+    align-items: center;
+    direction: rtl;
+ 
+}
+
+
+.cikk {
+    direction: ltr;
+}
+
+
+@media screen and (max-width:600px) {
+    
+nav ul{
+    grid-template-columns: 1fr;
+   
+    grid-auto-flow: row;
+    gap: 5px;
+}
+}
